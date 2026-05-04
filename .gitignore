@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+
+# Büyük / yeniden üretilebilir (GitHub limiti ve gizlilik)
+data/raw/pbmc3k/
+checkpoints/
+figures/
+*.mtx
+*.mtx.gz
+*.tar.gz
+*.h5ad
+data/processed/*.npy
+data/processed/*.npz
+*.pt
+*.pth
+*.pkl
+*.rds
+
+# IDE / OS
+.cursor/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# İşlenecek küçük dosya kalabilir (ör. obs meta); isterseniz satırı açıp *.csv de ignore edin
