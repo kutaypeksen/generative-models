@@ -1,5 +1,7 @@
 # Generative models benchmark — scRNA-seq (PBMC3K)
 
+Repo: [https://github.com/kutaypeksen/generative-models](https://github.com/kutaypeksen/generative-models)
+
 Tek hücreli RNA-seq verisinde çeşitli **generatif modeller** (VAE, WGAN-GP, AAE), **ensemble** (ortalama + fusion) ve **PPCA–Gaussian** baseline; **MMD**, **Wasserstein (1B gen özeti)** ve **korelasyon uyumsuzluğu** metrikleri ile karşılaştırma.
 
 ## Gereksinimler
@@ -32,6 +34,4 @@ python scripts/compare_all_generative_metrics.py
 
 PBMC3K filtrelenmiş 10x matrisi: [10x Genomics örnek arşivi](https://cf.10xgenomics.com/samples/cell/pbmc3k/pbmc3k_filtered_gene_bc_matrices.tar.gz) (Seurat PBMC3K tutorial ile uyumlu kaynak).
 
-## Lisans
 
-İçerikleri kendi kurumunuzun politikasına göre ekleyin (ör. MIT veya “eğitim amaçlı”).
